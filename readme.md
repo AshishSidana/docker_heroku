@@ -2,12 +2,12 @@
 
 [![Production Workflow](https://github.com/AshishSidana/docker_heroku/actions/workflows/prod.yml/badge.svg)](https://github.com/AshishSidana/docker_heroku/actions/workflows/prod.yml)
 
-* [Production Deployment](https://dockerherokuprod.herokuapp.com/bootstrap)
+* [Production Deployment](https://dockerherokuprod.herokuapp.com/home)
 
 
 [![Development Workflow](https://github.com/AshishSidana/docker_heroku/actions/workflows/dev.yml/badge.svg)](https://github.com/AshishSidana/docker_heroku/actions/workflows/dev.yml)
 
-* [Developmental Deployment](https://dockerherokudev.herokuapp.com/bootstrap)
+* [Developmental Deployment](https://dockerherokudev.herokuapp.com/home)
 
 ## Setting up CI/CD
 
