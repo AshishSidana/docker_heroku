@@ -12,3 +12,11 @@ def show(page):
         return render_template('%s.html' % page)
     except TemplateNotFound:
         abort(404)
+
+@simple_pages.route('/bootstrap', defaults={'page': 'bootstrap'})
+@simple_pages.route('/<page>')
+def show2(page):
+    try:
+        return render_template('%s.html' % page)
+    except TemplateNotFound:
+        abort(404)
