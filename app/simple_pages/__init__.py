@@ -5,7 +5,7 @@ simple_pages = Blueprint('simple_pages', __name__,
                         template_folder='templates',static_folder='static')
 
 
-@simple_pages.route('/', defaults={'page': 'index'})
+@simple_pages.route('/', defaults={'page': 'bootstrap'})
 @simple_pages.route('/<page>')
 def show(page):
     try:
